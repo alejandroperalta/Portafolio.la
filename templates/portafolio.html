@@ -3,88 +3,92 @@
     <head>
         <title>Portafolio.la</title>
         <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
     </head>
     <body>
-		<header>    
-			<nav>
-				<ul>
-					<li>
-						<a href="#yo">Yo</a>
+		<header id="yo" class="Header">    
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
+					<li class="MaunMenu-item">
+						<a class="MainMenu-link" href="#yo">Yo</a>
 					</li>
-					<li>
-						<a href="#perfil">Perfil</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#perfil">Perfil</a>
 					</li>
-					<li>
-						<a href="#trabajo">Trabajo</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
 					</li>
-					<li>
-						<a href="#contacto">Contacto</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#contacto">Contacto</a>
 					</li>
 				</ul>
+
 			</nav>
-			<figure>
-				<img src="avatar.jpg" alt="Imagen Personal"/>
-				<figcaption>
-					<a href="http://twitter.com/soptecpe" target="_blank">@soptecpe</a>
+			<figure class="Header-ImageContainer">
+				<img src="avatar.jpg" alt="Imagen Personal" class="Header-Image"/>
+				<figcaption class="Header-ImageDescription">
+					<a class="Header-Link" href="http://twitter.com/soptecpe" target="_blank">@soptecpe</a>
 				</figcaption>
+				<p class="Header-Name">Alex Peralta</p>
 			</figure>
 		</header>
-		<section>
-			<h2>Mi Perfil</h2>
-			<p>
+		<section id="perfil" class="Profile">
+			<h2 class="Profile-title u-title">Mi Perfil</h2>
+			<p class="Profile-description">
 				Hola este es mi portafolio con mis trabajos, contactame
 			</p>
-			<a href="http://twitter.com/soptecpe" target="_blank">@soptecpe</a>
-			<a href="http://facebook.com/soptecpe" target="_blank">Alex Peralta</a>
-			<a href="http://github.com/alexperalta" target="_blank">Alex Peralta</a>
+			<a class="Profile-Link" href="http://twitter.com/soptecpe" target="_blank">@soptecpe</a>
+			<a class="Profile-Link" href="http://facebook.com/soptecpe" target="_blank">Alex Peralta</a class="Profile-Link">
+			<a class="Profile-Link" href="http://github.com/alexperalta" target="_blank">Alex Peralta</a>
 		</section>
-		<section>
-			<h2>Mi Trabajo</h2>
-			<article>
-				<figure>
+		<section id="trabajo" class="Work">
+			<h2 class="Work-title u-title">Mi Trabajo</h2>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
 					<img src="mejorandoka.jpg" alt="Descripcion de mi imagen">
-					<figcaption>Website de Alex Peralta</figcaption>
+					<figcaption class"Work-Description">Website de Alex Peralta</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
 					<img src="mejorandoka.jpg" alt="Descripcion de mi imagen">
-					<figcaption>Website de Alex Peralta</figcaption>
+					<figcaption class"Work-Description">Website de Alex Peralta</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
 					<img src="mejorandoka.jpg" alt="Descripcion de mi imagen">
-					<figcaption>Website de Alex Peralta</figcaption>
+					<figcaption class"Work-Description">Website de Alex Peralta</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
 					<img src="mejorandoka.jpg" alt="Descripcion de mi imagen">
-					<figcaption>Website de Alex Peralta</figcaption>
+					<figcaption class"Work-Description">Website de Alex Peralta</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
 					<img src="mejorandoka.jpg" alt="Descripcion de mi imagen">
-					<figcaption>Website de Alex Peralta</figcaption>
+					<figcaption class"Work-Description">Website de Alex Peralta</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
 					<img src="mejorandoka.jpg" alt="Descripcion de mi imagen">
-					<figcaption>Website de Alex Peralta</figcaption>
+					<figcaption class"Work-Description">Website de Alex Peralta</figcaption>
 				</figure>
 			</article>
 		</section>
-		<footer>
-			<h3>Contacto</h3>
-			<p>Si tienes una sugerencia o quieres trabajar conmigo llena el siguiente formulario</p>
-			<form>
-				<input type"text" placeholder="Nombre"/>
-				<input type"email" placeholder="Email"/>
-				<textarea placeholder="Motivo"></textarea >
-				<button type="submit">Enviar</button>
+		<footer id="contacto" class="Footer">
+			<h3 class="Footer-title">Contacto</h3>
+			<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo llena el siguiente formulario</p>
+			<form class="Footer-form">
+				<input class="Footer-formInput" type"text" placeholder="Nombre"/>
+				<input class="Footer-formInput" type"email" placeholder="Email"/>
+				<textarea class="Footer-textarea"placeholder="Motivo"></textarea >
+				<button type="submit" class="Footer-button">Enviar</button>
 			</form>
 		</footer>
     </body>
